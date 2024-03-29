@@ -1,11 +1,8 @@
-.outer-box{
+
+ul {
     padding: 20px;
     margin: auto;
-}
-ul {
-    padding: 30px 40px;
-    margin: auto;
-    width: 50%;
+    width: 76%;
 }
 ul li {
     cursor: pointer;
@@ -24,7 +21,6 @@ ul li.checked {
     text-decoration: line-through;
 }
 ul li.checked::before {
-    content: '';
     position: absolute;
     border-color: #000000;
     border-style: solid;
