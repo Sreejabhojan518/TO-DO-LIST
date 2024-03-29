@@ -1,5 +1,5 @@
 ul {
-    width: 30%;
+    width: 33%;
     margin: auto;
     padding: 30px 40px;
 }
@@ -43,7 +43,7 @@ ul li.checked::before {
     color: rgb(0, 0, 0);
 }
 .header {
-    width: 30%;
+    width: 50%;
     margin: auto;
     background-color: #554b4b;
     padding: 30px 40px;
