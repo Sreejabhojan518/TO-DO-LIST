@@ -29,7 +29,7 @@ ul li.checked::before {
     left: 16px;
     transform: rotate(45deg);
     height: 15px;
-    width: 7px;
+    width: 90%;
     border-radius: 5px;
 }
 .close {
@@ -43,7 +43,7 @@ ul li.checked::before {
     color: rgb(0, 0, 0);
 }
 .header {
-    width: 50%;
+    width: 70%;
     margin: auto;
     background-color: #554b4b;
     padding: 30px 40px;
