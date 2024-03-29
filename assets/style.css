@@ -1,6 +1,6 @@
 ul {
-    width: 40%;
     padding: 30px 40px;
+    margin: auto;
 }
 ul li {
     cursor: pointer;
