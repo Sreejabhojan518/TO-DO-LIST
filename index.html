@@ -7,15 +7,14 @@
     <title>to-do list</title>
 </head>
 <body>
-    <header>
-        <h1>MY TO-DO LIST</h1>
-    </header>
-    <div class="container">
-        <input placeholder="Enter you task" type="text" class="createinput" id="inputbox">
-        <button class="createbutton" type="submit">
-            <span onclick="newElement()" class="addBtn">Add</span>
-        </button>
+    <div id="myDIV" class="header">
+        <h1>My To-Do List</h1>
+        <input type="text" id="myInput" placeholder="Enter your task">
+        <span onclick="newElement()" class="addBtn">Add</span>
     </div>
+    <ul id="myUL">
+    </ul>
+    <script type="text/javascript" src="./assets/script.js"></script>
 </body>
-<script type="text/javascript" src="./assets/script.js"></script>
 </html>
+
